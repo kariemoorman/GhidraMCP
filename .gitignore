@@ -1,6 +1,3 @@
-# Maven target directory
-/target/
-
 # Compiled class files
 *.class
 
@@ -35,15 +32,24 @@ bin/
 .Spotlight-V100
 .Trashes
 
-# Maven Wrapper
+# Maven
 .mvn/
 !/.mvn/wrapper/maven-wrapper.jar
 mvnw
 mvnw.cmd
+target/
+
+# Gradle 
+docs/
+dependency-reduced-pom.xml
+.gradle/
+build/
+dist/
 
 # Environment files
-.env
+.env/
 .env.*
+.*-env/
 
 # Java crash logs (if any)
 hs_err_pid*
